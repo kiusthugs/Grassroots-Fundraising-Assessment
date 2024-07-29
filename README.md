@@ -1,2 +1,4 @@
 # Grassroots-Fundraising-Assessment
-## This repo contains the code for the coding assessment provided by Grassroots Funding
+
+## Description
+This repository contains the code for the coding assessment provided by Grassroots Funding. The assessment focuses on evaluating various fundraising strategies and their effectiveness.
