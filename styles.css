@@ -1,8 +1,11 @@
+html {
+    background-color: #FEF9EC;
+}
+
 body, .biden_donation-btns button, .biden_donate-btn {
     font-family: "Merriweather Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #FEF9EC;
 }
 
 .biden_logo-container {
