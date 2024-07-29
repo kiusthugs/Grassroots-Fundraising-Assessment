@@ -1,0 +1,99 @@
+body, .biden_donation-btns button, .biden_donate-btn {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #FEF9EC;
+}
+
+.biden_logo-container {
+    text-align: center;
+    margin: 16px;
+}
+
+.biden_img-logo {
+    width: 175px;
+    height: 100px;
+}
+
+.biden_cta-container {
+    background-color: #D9E6FB;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #08388B;
+    text-transform: uppercase;
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+}
+
+/*Buttons*/
+.biden_donation-btns button, .biden_donate-btn {
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid #08388B;
+    cursor: pointer;
+}
+
+.biden_donation-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px auto;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px
+}
+
+.biden_donation-btns button {
+    background-color: #08388B;
+    border-radius: 24px;
+    padding: 8px 40px;
+    color: white;
+}
+
+.biden_donate-btn {
+    background-color: #C00C15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 32px;
+    text-transform: uppercase;
+}
+
+.biden_donation-btns .biden_selected-btn {
+    background-color: #FFF;
+    color: #08388B;
+}
+
+/*Small*/
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .biden_cta-container {
+        width: 75%;
+    } 
+}
+
+/*Tablet*/
+@media only screen and (min-width: 901px) and (max-width: 1200px)  {
+    h3 {
+        width: 75%;
+    }
+
+    .biden_cta-container {
+        width: 50%;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1201px) {
+    h3 {
+        max-width: 55%;
+    }
+    .biden_cta-container {
+        max-width: 40%;
+    }
+}
